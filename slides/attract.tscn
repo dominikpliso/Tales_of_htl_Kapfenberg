@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgtkw2sui4hin"]
+
+[ext_resource type="Script" uid="uid://ccoml2gjalxsl" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://ccoml2gjalxsl"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1280, 1024)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.99607843, 0.77254903, 0.47058824, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 395.0
+offset_right = 1262.0
+offset_bottom = 572.0
+theme_override_font_sizes/font_size = 80
+text = "Willkommen
+Tales of HTL Kapfenberg!"
+horizontal_alignment = 1
+vertical_alignment = 1

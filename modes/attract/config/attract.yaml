@@ -5,3 +5,8 @@
 
 slide_player:
   mode_attract_started: attract
+
+sound_player:
+  mode_attract_started:
+    Aladdin 2019 - Arabian Nights (Official Instrumental):
+      bus: music
